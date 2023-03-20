@@ -250,7 +250,7 @@ const PdfPreviewContainer = styled.div`
 	border-radius: 0.3rem;
 	display: flex;
 	align-items: center;
-	overflow: scroll;
+	overflow-y: scroll;
 
 	p {
 		font-size: 1.5rem;
@@ -258,6 +258,7 @@ const PdfPreviewContainer = styled.div`
 	}
 
 	div {
+		margin-top: 5.5rem;
 		width: 100%;
 	}
 `;
